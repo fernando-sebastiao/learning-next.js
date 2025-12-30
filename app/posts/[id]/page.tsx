@@ -6,7 +6,7 @@ export default async function DetailPost({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  
   const { id } = await params;
 
   return (

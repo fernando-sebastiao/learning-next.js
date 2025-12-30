@@ -15,6 +15,7 @@ export interface ResponseProps {
 }
 
 //export const revalidate = 60;
+
 //como componentes server não são reactivos, então é aconselhavel utilizar um revalidate, pode ser como a que
 //esta dentro do fech, eu exportar uma constante à cima
 //da função
