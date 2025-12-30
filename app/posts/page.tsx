@@ -50,7 +50,7 @@ export default async function PostsPage() {
 
     const response = await fetch(`https://dummyjson.com/posts/user/${userId}`);
 
-    const data: ResponseProps = await response.json();
+    const data: PostResponse = await response.json();
 
     console.log(data);
   }
